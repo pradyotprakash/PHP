@@ -1,0 +1,9 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="'Courier New',Verdana, Arial, Helvetica" SIZE=2>
+&lt;!DOCTYPE html><br>&lt;html><br>&lt;body><br><br><FONT COLOR=#ff0000>&lt;?php<br>$a1=array_fill(3,4,"blue");<br>$b1=array_fill(0,1,"red");<br>print_r($a1);<br>echo "&lt;br>";<br>print_r($b1);<br>?&gt;</FONT><br><br>&lt;/body><br>&lt;/html><br>
+
+</HTML>
+

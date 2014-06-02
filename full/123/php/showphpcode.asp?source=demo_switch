@@ -1,0 +1,9 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="'Courier New',Verdana, Arial, Helvetica" SIZE=2>
+&lt;!DOCTYPE html><br>&lt;html><br>&lt;body><br><br><FONT COLOR=#ff0000>&lt;?php<br>$favcolor="red";<br>switch ($favcolor)<br>{<br>case "red":<br>&nbsp;&nbsp;  echo "Your favorite color is red!";<br>&nbsp;&nbsp;  break;<br>case "blue":<br>&nbsp;&nbsp;  echo "Your favorite color is blue!";<br>&nbsp;&nbsp;  break;<br>case "green":<br>&nbsp;&nbsp;  echo "Your favorite color is green!";<br>&nbsp;&nbsp;  break;<br>default:<br>&nbsp;&nbsp;  echo "Your favorite color is neither red, blue, or green!";<br>}<br>?&gt;</FONT><br>&nbsp; <br>&lt;/body><br>&lt;/html><br>
+
+</HTML>
+

@@ -1,0 +1,9 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="'Courier New',Verdana, Arial, Helvetica" SIZE=2>
+&lt;!DOCTYPE html><br>&lt;html><br>&lt;body><br><br><FONT COLOR=#ff0000>&lt;?php<br>class Car<br>{<br>&nbsp;&nbsp;&nbsp;   var $color;<br>&nbsp;&nbsp;&nbsp;   function Car($color="green") <br>&nbsp;&nbsp;&nbsp;   {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       $this->color = $color;<br>&nbsp;&nbsp;&nbsp;   }<br>&nbsp;&nbsp;&nbsp;   function what_color() <br>&nbsp;&nbsp;&nbsp;   {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       return $this->color;<br>&nbsp;&nbsp;&nbsp;   }<br>}<br><br>function print_vars($obj) <br>{<br>&nbsp;&nbsp;  foreach (get_object_vars($obj) as $prop => $val)<br>&nbsp;&nbsp;  {<br>&nbsp;&nbsp;&nbsp;&nbsp;    echo "\t$prop = $val\n";<br>&nbsp;&nbsp;  }<br>}<br><br>// instantiate one object<br>$herbie = new Car("white");<br><br>// show herbie properties<br>echo "\herbie: Properties\n";<br>print_vars($herbie);<br><br>?&gt;</FONT>&nbsp; <br><br>&lt;/body><br>&lt;/html><br>
+
+</HTML>
+

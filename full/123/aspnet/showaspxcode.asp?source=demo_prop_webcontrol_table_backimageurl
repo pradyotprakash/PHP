@@ -1,0 +1,8 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="Verdana, Arial, Helvetica" SIZE=2>
+&lt;!DOCTYPE html><br>&lt;html><br>&lt;body><br><br>&lt;form runat="server"><br>&lt;asp:Table id="table1" runat="server" BackImageUrl="img_bgdesert.jpg" Height="200px" Width="200px"><br>&lt;asp:TableRow><br>&lt;asp:TableCell><br>Hello World!<br>&lt;/asp:TableCell><br>&lt;/asp:TableRow><br>&lt;/asp:Table><br>&lt;/form><br><br>&lt;/body><br>&lt;/html><br>
+
+</HTML>

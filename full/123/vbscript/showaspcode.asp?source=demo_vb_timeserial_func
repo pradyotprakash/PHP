@@ -1,0 +1,8 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="Verdana, Arial, Helvetica" SIZE=2>
+&lt;!DOCTYPE html><br>&lt;html><br>&lt;body><br><br><FONT COLOR=#ff0000>&lt;%<br><br>response.write(TimeSerial(23,2,3) & "&lt;br>")<br>response.write(TimeSerial(0,9,11) & "&lt;br>")<br>response.write(TimeSerial(14+2,9-2,1-1))<br><br>%&gt;</FONT><br><br>&lt;/body><br>&lt;/html><br>
+
+</HTML>

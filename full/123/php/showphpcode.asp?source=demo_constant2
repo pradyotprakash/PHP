@@ -1,0 +1,9 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="'Courier New',Verdana, Arial, Helvetica" SIZE=2>
+&lt;!DOCTYPE html><br>&lt;html><br>&lt;body><br><br><FONT COLOR=#ff0000>&lt;?php<br>// define a case-insensitive constant<br>define("GREETING", "Welcome to W3Schools.com!", true);<br>echo GREETING;<br>echo "&lt;br>";<br>// will also output the value of the constant<br>echo greeting;<br>?&gt;</FONT>&nbsp; <br><br>&lt;/body><br>&lt;/html><br>
+
+</HTML>
+

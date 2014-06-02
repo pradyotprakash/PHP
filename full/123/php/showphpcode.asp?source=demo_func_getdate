@@ -1,0 +1,9 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="'Courier New',Verdana, Arial, Helvetica" SIZE=2>
+&lt;!DOCTYPE html><br>&lt;html><br>&lt;body><br><br><FONT COLOR=#ff0000>&lt;?php<br>// Print the array from getdate()<br>print_r(getdate());<br>echo "&lt;br>&lt;br>";<br><br>// Return date/time info of a timestamp; then format the output<br>$mydate=getdate(date("U"));<br>echo "$mydate[weekday], $mydate[month] $mydate[mday], $mydate[year]";<br>?&gt;</FONT><br><br>&lt;/body><br>&lt;/html><br>
+
+</HTML>
+

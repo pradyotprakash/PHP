@@ -1,0 +1,9 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="'Courier New',Verdana, Arial, Helvetica" SIZE=2>
+&lt;!DOCTYPE html><br>&lt;html><br>&lt;body><br><br><FONT COLOR=#ff0000>&lt;?php  <br>$colors = array("red","green","blue","yellow"); <br>foreach ($colors as $value)<br>&nbsp;&nbsp;  {<br>&nbsp;&nbsp;  echo "$value &lt;br>";<br>&nbsp;&nbsp;  }<br>?&gt;</FONT>&nbsp;&nbsp;  <br><br>&lt;/body><br>&lt;/html><br>
+
+</HTML>
+

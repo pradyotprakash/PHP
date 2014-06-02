@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.1/jquery.mobile-1.4.1.min.css">
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.1/jquery.mobile-1.4.1.min.js"></script>
+</head>
+<body>
+
+<div data-role="page" id="pageone">
+  <div data-role="header">
+  <h1>jQuery Mobile Demo</h1>
+  </div>
+
+  <nav data-role="navbar">
+    <ul>
+      <li><a href="tryjqmob_default.htm#home" data-rel="dialog" data-icon="home">Home</a></li>
+      <li><a href="tryjqmob_default.htm#email" data-rel="dialog" data-icon="grid">Email</a></li>
+      <li><a href="tryjqmob_default.htm#phonebook" data-rel="dialog" data-icon="search">Phonebook</a></li>
+      <li><a href="tryjqmob_default.htm#calendar" data-rel="dialog" data-icon="calendar">Calendar</a></li>
+    </ul>
+  </nav>
+  
+  <div data-role="main" class="ui-content">
+  <p style="text-align:center;">Try jQuery Mobile by clicking the buttons above!</p>
+    </div>
+       
+  <div data-role="footer" data-position="fixed">
+  <h1>Copyright W3Schools</h1>
+  </div>
+</div> 
+
+<div data-role="page" id="email">
+  <div data-role="header">
+  <h1>Email Account</h1>
+  </div>
+              
+    <div data-role="main" class="ui-content">
+    <ul data-role="listview" data-inset="true">
+      <li><a href="tryjqmob_default.htm#">Inbox<span class="ui-li-count">25</span></a></li>
+      <li><a href="tryjqmob_default.htm#">Sent<span class="ui-li-count">432</span></a></li>
+      <li><a href="tryjqmob_default.htm#">Trash<span class="ui-li-count">7</span></a></li>
+    </ul>
+  <a href="tryjqmob_default.htm#pageone" data-role="button" data-inline="true" data-icon="back">Go Back</a>
+  </div>
+                  
+  <div data-role="footer" data-position="fixed">
+  <h1>Footer Text</h1>
+  </div>
+</div> 
+
+<div data-role="page" id="home">
+  <div data-role="header">
+  <h1>Home</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+  <p>Home Is Where The Heart Is!</p>
+  <a href="tryjqmob_default.htm#pageone" data-role="button" data-inline="true" data-icon="back">Go Back</a>
+  </div>
+
+  <div data-role="footer">
+  <h1>Footer Text</h1>
+  </div>
+</div>
+
+<div data-role="page" id="home2">
+  <div data-role="header">
+  <h1>Home</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+  <p>Home Is Where The Heart Is!</p>
+  <a href="tryjqmob_default.htm#pageone" data-role="button" data-inline="true" data-icon="back">Go Back</a>
+  </div>
+
+  <div data-role="footer">
+  <h1>Footer Text</h1>
+  </div>
+</div> 
+
+
+<div data-role="page" id="calendar">
+  <div data-role="header">
+  <h1>Calendar</h1>
+  </div>
+
+   <div data-role="main" class="ui-content">
+     <ul data-role="listview" data-inset="true">
+      <li data-role="list-divider">Tuesday, February 10, 2014 <span class="ui-li-count">2</span></li>   
+      <li><a href="tryjqmob_default.htm#">   
+        <h2>Doctor</h2>
+        <p>Regular check at 12:00</p>
+        <p class="ui-li-aside">Appointment</p></a>
+      </li>
+      <li><a href="tryjqmob_default.htm#">
+        <h2>Glen Quagmire</h2>
+        <p>The clam at 18:00</p>
+        <p class="ui-li-aside">giggity giggity goo</p></a>
+      </li>
+    </ul>
+    <a href="tryjqmob_default.htm#pageone" data-role="button" data-inline="true" data-icon="back">Go Back</a>
+  </div>
+</div>
+  
+<div data-role="page" id="phonebook">
+  <div data-role="header">
+  <h1>Phonebook</h1>
+  <a href="tryjqmob_default.htm#pageone" data-role="button" class="ui-btn-right" data-icon="back">Go Back</a>
+  </div>
+
+ <div data-role="main" class="ui-content">
+  
+  <ul data-role="listview" data-autodividers="true" data-inset="true" data-filter="true">
+    <li><a href="tryjqmob_default.htm#">Adele</a></li>
+    <li><a href="tryjqmob_default.htm#">Albert</a></li>
+    <li><a href="tryjqmob_default.htm#">Billy</a></li>
+    <li><a href="tryjqmob_default.htm#">Calvin</a></li>
+  </ul>
+  </div>
+</div> 
+
+</body>
+</html>

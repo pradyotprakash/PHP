@@ -1,0 +1,9 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="'Courier New',Verdana, Arial, Helvetica" SIZE=2>
+&lt;!DOCTYPE html><br>&lt;html><br>&lt;body><br>&nbsp; <br><FONT COLOR=#ff0000>&lt;?php<br>// This is a single line comment<br><br># This is also a single line comment<br><br>/*<br>This is a multiple lines comment block<br>that spans over more than<br>one line<br>*/<br><br>echo "Hello World!";<br>?&gt;</FONT><br>&nbsp; <br>&lt;/body><br>&lt;/html><br>
+
+</HTML>
+

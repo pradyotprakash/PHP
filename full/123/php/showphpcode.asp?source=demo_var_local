@@ -1,0 +1,9 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="'Courier New',Verdana, Arial, Helvetica" SIZE=2>
+&lt;!DOCTYPE html><br>&lt;html><br>&lt;body><br><br><FONT COLOR=#ff0000>&lt;?php<br>$x=5; // global scope<br>&nbsp; <br>function myTest()<br>{<br>$y=10; // local scope<br>echo "&lt;p>Test variables inside the function:&lt;p>";<br>echo "Variable x is: $x";<br>echo "&lt;br>";<br>echo "Variable y is: $y";<br>} <br><br>myTest();<br><br>echo "&lt;p>Test variables outside the function:&lt;p>";<br>echo "Variable x is: $x";<br>echo "&lt;br>";<br>echo "Variable y is: $y";<br>?&gt;</FONT><br><br>&lt;/body><br>&lt;/html><br>
+
+</HTML>
+

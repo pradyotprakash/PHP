@@ -1,0 +1,8 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="Verdana, Arial, Helvetica" SIZE=2>
+&lt;!DOCTYPE html><br><br>&lt;html><br>&lt;head><br>&lt;title>ASP Web Forms Demo&lt;/title><br>&lt;/head><br><br>&lt;body><br>&nbsp;&nbsp;  &lt;h1>Web Forms Main Ingredients&lt;/h1><br>&nbsp;&nbsp;  &lt;p>A Home Page (Default.cshtml)&lt;/p><br>&nbsp;&nbsp;  &lt;p>A Master Page (Site.master)&lt;/p><br>&nbsp;&nbsp;  &lt;p>A Style Sheet (Site.css)&lt;/p><br>&lt;/body><br><br>&lt;/html><br>
+
+</HTML>

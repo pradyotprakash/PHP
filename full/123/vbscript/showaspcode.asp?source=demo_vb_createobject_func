@@ -1,0 +1,8 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="Verdana, Arial, Helvetica" SIZE=2>
+&lt;!DOCTYPE html><br>&lt;html><br>&lt;body><br><FONT COLOR=#ff0000>&lt;%<br><br>txt="This is a beautiful day"<br>Set objReg=CreateObject("vbscript.regexp")<br>objReg.Pattern="i"<br>response.write(objReg.Replace(txt,"##"))<br><br>%&gt;</FONT><br>&lt;/body><br>&lt;/html><br><br>
+
+</HTML>

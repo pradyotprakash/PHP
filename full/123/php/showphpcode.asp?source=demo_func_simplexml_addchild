@@ -1,0 +1,9 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="'Courier New',Verdana, Arial, Helvetica" SIZE=2>
+&lt;!DOCTYPE html><br>&lt;html><br>&lt;body><br><br><FONT COLOR=#ff0000>&lt;?php<br>$note=&lt;&lt;&lt;XML<br>&lt;note><br>&lt;to>Tove&lt;/to><br>&lt;from>Jani&lt;/from><br>&lt;heading>Reminder&lt;/heading><br>&lt;body>Don't forget me this weekend!&lt;/body><br>&lt;/note><br>XML;<br><br>$xml=new SimpleXMLElement($note);<br><br>// Add a child element to the body element<br>$xml->body->addChild("date","2013-01-01");<br><br>// Add a child element after the last element inside note<br>$footer=$xml->addChild("footer","Some footer text");<br>&nbsp; <br>echo $xml->asXML();<br>?&gt;</FONT><br><br>&lt;p>Select View Source to see the added date element (inside the body element) and the footer element.&lt;/p><br><br>&lt;/body><br>&lt;/html><br>
+
+</HTML>
+

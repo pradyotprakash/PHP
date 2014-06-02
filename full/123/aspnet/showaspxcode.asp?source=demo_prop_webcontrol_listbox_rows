@@ -1,0 +1,8 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="Verdana, Arial, Helvetica" SIZE=2>
+&lt;!DOCTYPE html><br>&lt;html><br>&lt;body><br><br>&lt;form runat="server"><br>&lt;asp:ListBox id="lb1" Rows="8" runat="server"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&lt;asp:ListItem Value="Item1" /><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&lt;asp:ListItem Value="Item2" /><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&lt;asp:ListItem Value="Item3" /><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&lt;asp:ListItem Value="Item4" /><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&lt;asp:ListItem Value="Item5" /><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&lt;asp:ListItem Value="Item6" /><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&lt;asp:ListItem Value="Item7" /><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&lt;asp:ListItem Value="Item8" /><br>&lt;/asp:ListBox><br>&lt;/form><br><br>&lt;/body><br>&lt;/html><br>
+
+</HTML>

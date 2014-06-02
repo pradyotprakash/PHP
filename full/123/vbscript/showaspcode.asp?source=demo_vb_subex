@@ -1,0 +1,8 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="Verdana, Arial, Helvetica" SIZE=2>
+&lt;!DOCTYPE html><br>&lt;html><br>&lt;body><br><br><FONT COLOR=#ff0000>&lt;%<br>Sub mysub()<br>&nbsp;&nbsp;  response.write("I was written by a sub procedure")<br>End Sub<br><br>response.write("I was written by the script&lt;br>")<br>Call mysub()<br>%&gt;</FONT><br><br>&lt;/body><br>&lt;/html><br><br>
+
+</HTML>

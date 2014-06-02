@@ -1,0 +1,8 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="Verdana, Arial, Helvetica" SIZE=2>
+&lt;!DOCTYPE html><br>&lt;html><br>&lt;head><br><FONT COLOR=#0000ff>&lt;script&nbsp; runat="server"><br>Sub Button1_Click(sender As Object, e As EventArgs)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Response.Write("The naming container is: ")<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Response.Write(button1.NamingContainer)<br>End Sub<br>&lt;/script&gt;</FONT><br>&lt;/head><br>&lt;body><br><br>&lt;form runat="server" ><br>&lt;asp:Button ID="button1" OnClick="Button1_Click" Text="Get NamingContainer" runat="server" /><br>&lt;/form><br><br>&lt;/body><br>&lt;/html><br>
+
+</HTML>

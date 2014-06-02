@@ -1,0 +1,8 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="Verdana, Arial, Helvetica" SIZE=2>
+&lt;!DOCTYPE html><br>&lt;html><br>&lt;body><br><br><FONT COLOR=#ff0000>&lt;%<br>response.write("Today's date is " & Date())<br>response.write("&lt;br>")<br>response.write("The time is " & Time())<br>%&gt;</FONT><br><br>&lt;/body><br>&lt;/html><br>
+
+</HTML>

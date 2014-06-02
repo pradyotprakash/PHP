@@ -1,0 +1,8 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="Verdana, Arial, Helvetica" SIZE=2>
+&lt;!DOCTYPE html><br>&lt;html><br>&lt;body><br><br><FONT COLOR=#ff0000>&lt;%<br>dim d<br>set d=Server.CreateObject("Scripting.Dictionary")<br>d.Add "n", "Norway"<br>d.Add "i", "Italy"<br>if d.Exists("n")= true then<br>&nbsp;&nbsp;&nbsp;   Response.Write("Key exists.")<br>else<br>&nbsp;&nbsp;&nbsp;   Response.Write("Key does not exist.")<br>end if<br>set d=nothing<br>%&gt;</FONT><br><br>&lt;/body><br>&lt;/html><br>
+
+</HTML>

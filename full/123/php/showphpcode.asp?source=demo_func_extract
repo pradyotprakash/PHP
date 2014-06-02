@@ -1,0 +1,9 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="'Courier New',Verdana, Arial, Helvetica" SIZE=2>
+&lt;!DOCTYPE html><br>&lt;html><br>&lt;body><br><br><FONT COLOR=#ff0000>&lt;?php<br>$a = "Original";<br>$my_array = array("a" => "Cat","b" => "Dog", "c" => "Horse");<br>extract($my_array);<br>echo "\$a = $a; \$b = $b; \$c = $c";<br>?&gt;</FONT><br><br>&lt;/body><br>&lt;/html><br>
+
+</HTML>
+

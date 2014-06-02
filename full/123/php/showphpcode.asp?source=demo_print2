@@ -1,0 +1,9 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="'Courier New',Verdana, Arial, Helvetica" SIZE=2>
+&lt;!DOCTYPE html><br>&lt;html><br>&lt;body><br><br><FONT COLOR=#ff0000>&lt;?php<br>$txt1="Learn PHP";<br>$txt2="W3Schools.com";<br>$cars=array("Volvo","BMW","Toyota");<br>print $txt1;<br>print "&lt;br>";<br>print "Study PHP at $txt2";<br>print "&lt;br>";<br>print "My car is a {$cars[0]}";<br>?&gt;</FONT><br><br>&lt;/body><br>&lt;/html><br>
+
+</HTML>
+

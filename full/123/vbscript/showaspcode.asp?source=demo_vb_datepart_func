@@ -1,0 +1,8 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="Verdana, Arial, Helvetica" SIZE=2>
+&lt;!DOCTYPE html><br>&lt;html><br>&lt;body><br><br><FONT COLOR=#ff0000>&lt;%<br><br>d=CDate("2010-02-16")<br>response.write(DatePart("m",d))<br><br>%&gt;</FONT>&nbsp; <br><br>&lt;/body><br>&lt;/html><br>
+
+</HTML>

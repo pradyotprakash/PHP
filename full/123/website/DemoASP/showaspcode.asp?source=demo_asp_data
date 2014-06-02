@@ -1,0 +1,8 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="Verdana, Arial, Helvetica" SIZE=2>
+&lt;!DOCTYPE html><br>&lt;html><br>&lt;head><br>&lt;title>ASP Demo&lt;/title><br>&lt;link href="Site.css" rel="stylesheet"><br>&lt;/head><br>&lt;body><br>&lt;div id="main"><br>&lt;h1>Customers&lt;/h1><br><br><FONT COLOR=#ff0000>&lt;%<br>set conn=Server.CreateObject("ADODB.Connection")<br>conn.Provider="Microsoft.Jet.OLEDB.4.0"<br>conn.Open("C:\WebData\Northwind.mdb")<br>set rs = Server.CreateObject("ADODB.recordset")<br>rs.Open "Select CompanyName, City, Country from Customers", conn<br>%&gt;</FONT><br>&lt;table border="1"><br>&lt;tr>&lt;th>Name&lt;/th>&lt;th>City&lt;/th>&lt;th>Country&lt;/th>&lt;/tr><br><FONT COLOR=#ff0000>&lt;%do until rs.EOF%&gt;</FONT><br>&lt;tr><br><FONT COLOR=#ff0000>&lt;%for each x in rs.Fields%&gt;</FONT><br>&lt;td><br><FONT COLOR=#ff0000>&lt;%Response.Write(x.value)%&gt;</FONT><br>&lt;/td><br><FONT COLOR=#ff0000>&lt;%next%&gt;</FONT><br>&lt;/tr><br><FONT COLOR=#ff0000>&lt;%<br>rs.MoveNext<br>loop<br>%&gt;</FONT><br>&lt;/table><br><FONT COLOR=#ff0000>&lt;%<br>rs.close<br>conn.close<br>%&gt;</FONT><br><br>&lt;!-- #include file="Footer.inc" --><br>&lt;/div><br><br>&lt;/body><br>&lt;/html> <br>
+
+</HTML>

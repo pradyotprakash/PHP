@@ -1,0 +1,9 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="'Courier New',Verdana, Arial, Helvetica" SIZE=2>
+&lt;!DOCTYPE html><br>&lt;html><br>&lt;body><br><br><FONT COLOR=#ff0000>&lt;?php <br>$x = 75;<br>$y = 25; <br><br>function addition()<br>{<br>$GLOBALS['z'] = $GLOBALS['x'] + $GLOBALS['y'];<br>}<br><br>addition();<br>echo $z;<br>?&gt;</FONT><br><br>&lt;/body><br>&lt;/html><br>
+
+</HTML>
+

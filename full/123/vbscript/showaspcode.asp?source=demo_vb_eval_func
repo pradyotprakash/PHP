@@ -1,0 +1,8 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="Verdana, Arial, Helvetica" SIZE=2>
+&lt;!DOCTYPE html><br>&lt;html><br>&lt;body><br><FONT COLOR=#ff0000>&lt;%<br><br>function myFunction()<br>response.write("Hello world")<br>end function<br><br>eval("myFunction()")<br><br>%&gt;</FONT><br>&lt;/body><br>&lt;/html><br><br>
+
+</HTML>

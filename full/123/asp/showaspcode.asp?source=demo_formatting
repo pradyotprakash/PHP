@@ -1,0 +1,8 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="Verdana, Arial, Helvetica" SIZE=2>
+&lt;!DOCTYPE html><br>&lt;html><br>&lt;body><br><FONT COLOR=#ff0000>&lt;%<br>response.write("&lt;h2>You can use HTML tags to format the text!&lt;/h2>")<br>%&gt;</FONT><br><br><FONT COLOR=#ff0000>&lt;%<br>response.write("&lt;p style='color:#0000ff'>This text is styled with the style attribute!&lt;/p>")<br>%&gt;</FONT><br>&lt;/body><br>&lt;/html><br>
+
+</HTML>

@@ -1,0 +1,9 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="'Courier New',Verdana, Arial, Helvetica" SIZE=2>
+&lt;!DOCTYPE html><br>&lt;html><br>&lt;body><br><br>&lt;form method="post" action="<FONT COLOR=#ff0000>&lt;?php echo $_SERVER['PHP_SELF'];?&gt;</FONT>"><br>Name: &lt;input type="text" name="fname"><br>&lt;input type="submit"><br>&lt;/form><br><br><FONT COLOR=#ff0000>&lt;?php <br>$name = $_REQUEST['fname']; <br>echo $name; <br>?&gt;</FONT><br><br>&lt;/body><br>&lt;/html><br>
+
+</HTML>
+

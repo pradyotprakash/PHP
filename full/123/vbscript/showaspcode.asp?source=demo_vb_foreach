@@ -1,0 +1,8 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="Verdana, Arial, Helvetica" SIZE=2>
+&lt;!DOCTYPE html><br>&lt;html><br>&lt;body><br><br><FONT COLOR=#ff0000>&lt;%<br>Dim cars(2)<br>cars(0)="Volvo"<br>cars(1)="Saab"<br>cars(2)="BMW"<br><br>For Each x In cars<br>&nbsp;&nbsp;  response.write(x & "&lt;br>")<br>Next<br>%&gt;</FONT><br><br>&lt;/body><br>&lt;/html><br>
+
+</HTML>

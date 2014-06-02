@@ -1,0 +1,8 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="Verdana, Arial, Helvetica" SIZE=2>
+&lt;!DOCTYPE html><br>&lt;html><br>&lt;body><br><br><FONT COLOR=#ff0000>&lt;%<br><br>Dim a(5)<br>a(0)="Saturday"<br>a(1)="Sunday"<br>a(2)="Monday"<br>a(3)="Tuesday"<br>a(4)="Wednesday"<br>response.write(IsArray(a))<br><br>%&gt;</FONT>&nbsp; <br><br>&lt;/body><br>&lt;/html><br>
+
+</HTML>

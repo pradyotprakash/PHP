@@ -1,0 +1,9 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="'Courier New',Verdana, Arial, Helvetica" SIZE=2>
+&lt;!DOCTYPE html><br>&lt;html><br>&lt;body><br><br><FONT COLOR=#ff0000>&lt;?php<br>$x=10;  <br>echo ++$x;<br>echo "&lt;br>";<br><br>$y=10;  <br>echo $y++;<br>echo "&lt;br>";<br><br>$z=5;<br>echo --$z;<br>echo "&lt;br>";<br><br>$i=5;<br>echo $i--;<br>?&gt;</FONT>&nbsp;&nbsp;  <br><br>&lt;/body><br>&lt;/html><br>
+
+</HTML>
+

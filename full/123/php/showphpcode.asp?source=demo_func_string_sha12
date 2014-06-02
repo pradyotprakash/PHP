@@ -1,0 +1,9 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="'Courier New',Verdana, Arial, Helvetica" SIZE=2>
+&lt;!DOCTYPE html><br>&lt;html><br>&lt;body><br><br><FONT COLOR=#ff0000>&lt;?php <br>$str = "Hello"; <br>echo "The string: ".$str."&lt;br>"; <br>echo "TRUE - Raw 20 character binary format: ".sha1($str, TRUE)."&lt;br>"; <br>echo "FALSE - 40 character hex number: ".sha1($str)."&lt;br>"; <br>?&gt;</FONT><br><br>&lt;/body><br>&lt;/html><br>
+
+</HTML>
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="Site.css">
+</head>
+<body>
+
+<ul id="menu">
+<li><a href="Default">Home</a></li> 
+<li><a href="Customers">Data</a></li>
+<li><a href="Register">Register</a></li>
+<li><a href="Login">Login</a></li>
+<li><a href="About">About</a></li>
+</ul> 
+
+<div id="main">
+
+
+<h1>Login</h1>
+<form method="post" action="Login">
+<fieldset>
+<legend>Log In to Your Account</legend>
+<ol>
+<li>
+<label>Username:</label>
+<input type="text" id="username" name="username" />
+</li>
+<li>
+<label>Password:</label>
+<input type="password" id="password" name="password" />
+</li>
+<li>
+<p><input type="submit" value="Login" /></p>
+</li>
+</ol>
+</fieldset>
+</form>
+
+<p>&copy; 2014 W3Schools. All rights reserved.</p>
+</div>
+
+</body>
+</html>

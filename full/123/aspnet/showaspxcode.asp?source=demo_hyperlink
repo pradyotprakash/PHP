@@ -1,0 +1,8 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="Verdana, Arial, Helvetica" SIZE=2>
+&lt;!DOCTYPE html><br>&lt;html><br>&lt;body><br><br>&lt;form runat="server"><br>&lt;asp:HyperLink<br>ImageUrl="/banners/w6.gif"<br>NavigateUrl="http://www.w3schools.com"<br>Text="Visit W3Schools!"<br>Target="_blank"<br>runat="server" /><br>&lt;/form><br><br>&lt;/body><br>&lt;/html><br>
+
+</HTML>

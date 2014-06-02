@@ -1,0 +1,8 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="Verdana, Arial, Helvetica" SIZE=2>
+&lt;!DOCTYPE html><br>&lt;html><br>&lt;body><br><br><FONT COLOR=#ff0000>&lt;%<br>dim i <br>for i=1 to 6<br>&nbsp;&nbsp;  response.write("&lt;h" & i & ">Heading " & i & "&lt;/h" & i & ">")<br>next<br>%&gt;</FONT><br><br>&lt;/body><br>&lt;/html><br>
+
+</HTML>

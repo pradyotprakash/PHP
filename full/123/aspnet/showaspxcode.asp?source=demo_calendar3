@@ -1,0 +1,8 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="Verdana, Arial, Helvetica" SIZE=2>
+&lt;!DOCTYPE html><br>&lt;html><br>&lt;body><br><br>&lt;form runat="server"><br>&lt;asp:Calendar DayNameFormat="Full" runat="server"<br>SelectionMode="DayWeekMonth"<br>SelectMonthText="&lt;*&gt;"<br>SelectWeekText="&lt;-&gt;"/><br>&nbsp;&nbsp;  &lt;SelectorStyle BackColor="#f5f5f5" /><br>&lt;/asp:Calendar><br>&lt;/form><br><br>&lt;/body><br>&lt;/html><br>
+
+</HTML>

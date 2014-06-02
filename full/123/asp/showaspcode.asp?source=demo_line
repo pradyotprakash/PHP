@@ -1,0 +1,8 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="Verdana, Arial, Helvetica" SIZE=2>
+&lt;!DOCTYPE html><br>&lt;html><br>&lt;body><br>&lt;p>This is all the lines in the text file (with line numbers):&lt;/p><br><br><FONT COLOR=#ff0000>&lt;%<br>Set fs=Server.CreateObject("Scripting.FileSystemObject")<br>Set f=fs.OpenTextFile(Server.MapPath("testread.txt"), 1)<br><br>do while f.AtEndOfStream = false<br>Response.Write("Line:" & f.Line & " ")<br>Response.Write(f.ReadLine)<br>Response.Write("&lt;br>")<br>loop<br><br>f.Close<br>Set f=Nothing<br>Set fs=Nothing<br>%&gt;</FONT><br><br>&lt;/body><br>&lt;/html><br>
+
+</HTML>

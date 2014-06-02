@@ -1,0 +1,8 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="Verdana, Arial, Helvetica" SIZE=2>
+<FONT COLOR=#ff0000>&lt;%@ Page Title="Data" MasterPageFile="Site.master" %&gt;</FONT><br><br><FONT COLOR=#ff0000>&lt;%@ Import Namespace="System.IO" %&gt;</FONT><br><FONT COLOR=#ff0000>&lt;%@ Import Namespace="System.Data" %&gt;</FONT><br><FONT COLOR=#ff0000>&lt;%@ Import Namespace="System.Data.OleDb" %&gt;</FONT><br><br>&lt;asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="Server"><br>&lt;h1>Customers&lt;/h1><br><FONT COLOR=#ff0000>&lt;%<br>Dim dbconn As OleDbConnection<br>Dim objAdapter As OleDbDataAdapter<br>Dim objTable As DataTable<br>Dim objRow As DataRow<br>Dim objDataSet As New DataSet()<br>dbconn=New OledbConnection("Provider=Microsoft.Jet.OLEDB.4.0;data source=C:\WebData\Northwind.mdb")<br>objAdapter=New OledbDataAdapter("SELECT * FROM customers",dbconn)<br>objAdapter.Fill(objDataSet,"myTable")<br>objTable=objDataSet.Tables("myTable")<br>response.write("&lt;table border='1'>")<br>response.write("&lt;tr>&lt;th>Name&lt;/th>&lt;th>City&lt;/th>&lt;th>Country&lt;/th>&lt;/tr>")<br>for each x in objTable.Rows<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	response.write("&lt;tr>")<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	response.write("&lt;td>" & x("companyname") & "&lt;/td>")<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	response.write("&lt;td>" & x("city") & "&lt;/td>")		<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	response.write("&lt;td>" & x("country") & "&lt;/td>")				<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	response.write("&lt;/tr>")		<br>next<br>response.write("&lt;/table>")<br>dbconn.Close()<br>%&gt;</FONT><br>&lt;/asp:Content><br>
+
+</HTML>

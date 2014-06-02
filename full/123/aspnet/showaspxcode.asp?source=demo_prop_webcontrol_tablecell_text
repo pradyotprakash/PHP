@@ -1,0 +1,8 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="Verdana, Arial, Helvetica" SIZE=2>
+&lt;!DOCTYPE html><br>&lt;html><br>&lt;body><br><br>&lt;form runat="server"><br>&lt;asp:Table id="table1" runat="server" GridLines="Both" ><br><br>&lt;asp:TableRow><br>&lt;asp:TableCell Text="Hello" /><br>&lt;asp:TableCell Text="World!" /><br>&lt;/asp:TableRow><br><br>&lt;/asp:Table><br>&lt;/form><br><br>&lt;/body><br>&lt;/html><br>
+
+</HTML>

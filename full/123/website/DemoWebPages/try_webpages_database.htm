@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="../../showrazor.css" />
+</head>
+
+<body>
+<span class="marked">@{Layout=&quot;Layout.cshtml&quot;;<br>
+var db = Database.Open(&quot;Northwind&quot;);&nbsp;<br>
+var query = db.Query(&quot;SELECT CompanyName,City,Country FROM Customers&quot;);&nbsp;<br>
+}</span><br>
+&lt;html&gt;&nbsp;<br>
+&lt;body&gt;&nbsp;<br>
+&lt;h1&gt;Customers&lt;/h1&gt;&nbsp;<br>
+&lt;table&gt;&nbsp;<br>
+&lt;tr&gt;<br>
+&lt;th&gt;Name&lt;/th&gt;&nbsp;<br>
+&lt;th&gt;City&lt;/th&gt;&nbsp;<br>
+&lt;th&gt;Country&lt;/th&gt;&nbsp;<br>
+&lt;/tr&gt;<br>
+<span class="marked">@foreach(var row in query)<br>
+{</span><br>
+&lt;tr&gt;&nbsp;<br>
+&lt;td&gt;<span class="marked">@row.CompanyName</span>&lt;/td&gt;&nbsp;<br>
+&lt;td&gt;<span class="marked">@row.City</span>&lt;/td&gt;&nbsp;<br>
+&lt;td&gt;<span class="marked">@row.Country</span>&lt;/td&gt;&nbsp;<br>
+&lt;/tr&gt;&nbsp;<br>
+<span class="marked">}</span><br>
+&lt;/table&gt;&nbsp;<br>
+&lt;/body&gt;&nbsp;<br>
+&lt;/html&gt;
+</body>
+
+</html>

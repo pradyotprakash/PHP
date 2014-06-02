@@ -1,0 +1,8 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="Verdana, Arial, Helvetica" SIZE=2>
+&lt;!DOCTYPE html><br>&lt;html><br>&lt;head><br><FONT COLOR=#0000ff>&lt;script&nbsp; runat="server"><br>Sub ChangeFont(obj As Object, e As EventArgs)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	button1.Font.Name = "Courier New"<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	button1.Font.Size = FontUnit.Parse("10")<br>End Sub<br>&lt;/script&gt;</FONT><br>&lt;/head><br>&lt;body><br><br>&lt;form runat="server"><br>&lt;asp:Button id="Button1" Text="Change" Font-Name="Verdana" Font-Size="15" runat="server" OnClick="ChangeFont" /><br>&lt;/form><br><br>&lt;/body><br>&lt;/html><br>
+
+</HTML>

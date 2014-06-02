@@ -1,0 +1,8 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="Verdana, Arial, Helvetica" SIZE=2>
+&lt;!DOCTYPE html><br>&lt;html><br>&lt;body><br><br>&lt;a href="demo_simplequerystring.asp?color=green">Example&lt;/a><br><br><FONT COLOR=#ff0000>&lt;%<br>Response.Write(Request.QueryString)<br>%&gt;</FONT><br><br>&lt;/body><br>&lt;/html><br><br>
+
+</HTML>

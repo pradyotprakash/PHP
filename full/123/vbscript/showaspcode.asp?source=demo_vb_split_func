@@ -1,0 +1,8 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="Verdana, Arial, Helvetica" SIZE=2>
+&lt;!DOCTYPE html><br>&lt;html><br>&lt;body><br><br><FONT COLOR=#ff0000>&lt;%<br><br>a=Split("W3Schools is my favourite website")<br>for each x in a<br>&nbsp;&nbsp;  response.write(x & "&lt;br>")<br>next<br><br>%&gt;</FONT>&nbsp; <br><br>&lt;/body><br>&lt;/html><br>
+
+</HTML>

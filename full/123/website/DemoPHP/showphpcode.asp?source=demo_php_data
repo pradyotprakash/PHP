@@ -1,0 +1,9 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="'Courier New',Verdana, Arial, Helvetica" SIZE=2>
+&lt;!DOCTYPE html><br>&lt;html><br>&lt;head><br>&lt;link rel="stylesheet" href="Site.css"><br>&lt;/head><br>&lt;body><br>&lt;div id="main"><br>&lt;h1>Customers&lt;/h1><br><br><FONT COLOR=#ff0000>&lt;?php<br>//create an ADO connection and open the database<br>$conn = new COM("ADODB.Connection");<br>$conn->open("PROVIDER=Microsoft.Jet.OLEDB.4.0;Data Source=C:\WebData\Northwind.mdb");<br><br>//execute an SQL statement and return a recordset<br>$rs = $conn->execute("SELECT CompanyName, City, Country FROM Customers");<br>$num_columns = $rs->Fields->Count();<br><br>echo "&lt;table border='1'>"; <br>echo "&lt;tr>&lt;th>Name&lt;/th>&lt;th>City&lt;/th>&lt;th>Country&lt;/th>&lt;/tr>";<br>while (!$rs->EOF)  //looping through the recordset (until End Of File)<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;    echo "&lt;tr>";<br>&nbsp;&nbsp;&nbsp;&nbsp;    for ($i=0; $i &lt;&nbsp; $num_columns; $i++) {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        echo "&lt;td>" . $rs->Fields($i)->value . "&lt;/td>";<br>&nbsp;&nbsp;&nbsp;&nbsp;    }<br>&nbsp;&nbsp;&nbsp;&nbsp;    echo "&lt;/tr>";<br>&nbsp;&nbsp;&nbsp;&nbsp;    $rs->MoveNext();<br>}<br>echo "&lt;/table>";<br><br>//close the recordset and the database connection<br>$rs->close();<br>$rs = null;<br>$conn->close();<br>$conn = null;<br>?&gt;</FONT>&nbsp; <br><br><FONT COLOR=#ff0000>&lt;?php include("Footer.php"); ?&gt;</FONT><br><br>&lt;/div><br>&lt;/body><br>&lt;/html><br>
+
+</HTML>
+

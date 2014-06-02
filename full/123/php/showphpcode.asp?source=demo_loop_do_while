@@ -1,0 +1,9 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="'Courier New',Verdana, Arial, Helvetica" SIZE=2>
+&lt;!DOCTYPE html><br>&lt;html><br>&lt;body><br><br><FONT COLOR=#ff0000>&lt;?php <br>$x=1;<br>do<br>&nbsp;&nbsp;  {<br>&nbsp;&nbsp;  echo "The number is: $x &lt;br>";<br>&nbsp;&nbsp;  $x++;<br>&nbsp;&nbsp;  }<br>while ($x&lt;=5)<br>?&gt;</FONT><br><br>&lt;/body><br>&lt;/html><br>
+
+</HTML>
+

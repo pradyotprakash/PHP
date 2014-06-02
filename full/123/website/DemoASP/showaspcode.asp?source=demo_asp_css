@@ -1,0 +1,8 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="Verdana, Arial, Helvetica" SIZE=2>
+&lt;!DOCTYPE html><br>&lt;html><br>&lt;head><br>&lt;title>ASP Demo&lt;/title><br>&lt;link href="Site.css" rel="stylesheet"><br>&lt;/head><br><br>&lt;body><br><br>&lt;div id="main"><br>&lt;h1>Welcome to W3Schools&lt;/h1> <br>&lt;h2>Web Site Main Ingredients&lt;/h2><br>&lt;p>A Home Page (Default.asp)&lt;/p><br>&lt;p>A Style Sheet (Site.css)&lt;/p><br>&lt;p>Include files (Header.inc, Footer.inc)&lt;/p><br>&lt;!-- #include file="Footer.inc" --><br>&lt;/div><br><br>&lt;/body><br>&lt;/html> <br>
+
+</HTML>

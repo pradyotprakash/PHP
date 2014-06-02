@@ -1,0 +1,9 @@
+
+
+<HTML>
+<HEAD></HEAD>
+<FONT FACE="'Courier New',Verdana, Arial, Helvetica" SIZE=2>
+&lt;!DOCTYPE html><br>&lt;html><br>&lt;body><br><br><FONT COLOR=#ff0000>&lt;?php<br>$x=100;  <br>$y="100";<br><br>var_dump($x == $y); // returns true because values are equal<br>echo "&lt;br>";<br>var_dump($x === $y); // returns false because types are not equal<br>echo "&lt;br>";<br>var_dump($x != $y); // returns false because values are equal<br>echo "&lt;br>";<br>var_dump($x !== $y); // returns true because types are not equal<br>echo "&lt;br>";<br><br>$a=50;<br>$b=90;<br><br>var_dump($a > $b);<br>echo "&lt;br>";<br>var_dump($a &lt;&nbsp; $b);<br>?&gt;</FONT>&nbsp;&nbsp;  <br><br>&lt;/body><br>&lt;/html><br>
+
+</HTML>
+
